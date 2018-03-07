@@ -2,6 +2,7 @@ from googleapiclient.discovery import build
 import csv
 import sys
 
+
 def main():
     service = build('customsearch', 'v1', developerKey="AIzaSyAJ4QECIkkSFzq3oCpLNflo_0smpGW0l5M")
 
